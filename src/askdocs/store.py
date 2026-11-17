@@ -1,5 +1,6 @@
 """In-memory document store wired to the retriever."""
 from __future__ import annotations
+
 from .chunk import chunk_text
 from .retriever import Retriever
 

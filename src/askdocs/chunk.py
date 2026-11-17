@@ -1,5 +1,6 @@
 """Split long text into overlapping chunks for retrieval."""
 from __future__ import annotations
+
 import re
 
 _WORD = re.compile(r"\S+")

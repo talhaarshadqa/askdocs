@@ -1,5 +1,6 @@
 """Answer backends: a zero-dependency local one, and an optional OpenAI one."""
 from __future__ import annotations
+
 import os
 import textwrap
 from typing import Protocol

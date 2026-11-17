@@ -1,8 +1,9 @@
 import pytest
+
+from askdocs.backends import LocalBackend, get_backend
 from askdocs.chunk import chunk_text
 from askdocs.retriever import Retriever, tokenize
 from askdocs.store import DocStore
-from askdocs.backends import LocalBackend, get_backend
 
 
 def test_chunk_overlap():
